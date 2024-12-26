@@ -301,7 +301,7 @@ def PATHS(exe = None, prefix = None, installdir = None, internet = True):
     PICARD_VERSION = ('2.9.4','2.19.0','2.21.2')
     # LiftOver
     LIFTOVER_PATH = os.path.join(FUSIONCATCHER_TOOLS,'liftover')
-    LIFTOVER_URL = 'http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/liftOver'
+    LIFTOVER_URL = 'https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/liftOver'
     LIFTOVER_VERSION = ('move annotations',)
     # JAVA
     JAVA_PATH = "/usr/bin/"
